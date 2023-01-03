@@ -1,0 +1,114 @@
+/* some style */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sf pro;
+  
+}
+
+p {
+  margin: 0;
+}
+
+.map-container {
+  background-color: lightpink;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 350px;
+  overflow-x: hidden;
+}
+
+.items-list {
+  position: absolute;
+  width: fit-content;
+  background-color: lightgrey;
+  height: 100vh;
+  padding: 10px;
+}
+
+.item-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-title {
+  font-weight: bold;
+}
+
+.item-desc {
+  font-size: 14px;
+}
+
+.item-location {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.icon-title {
+  display: flex;
+}
+
+
+.items-card-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.circle-normal {
+  width: 24px;
+  height: 24px;
+  background-color: #EEEFED;
+  border-radius: 30px;
+  color: #9EA499;
+  text-align: center;
+
+}
+
+.circle-active {
+  width: 24px;
+  height: 24px;
+  background-color: green;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+}
+
+.level-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.fancy-level-list {
+  margin-top: 10px;
+}
+
+.badge-ig {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.badge-open {
+  padding: 2px 4px;
+  width: fit-content;
+  background: #5DB133;
+  border-radius: 4px;
+  height: fit-content;
+}
